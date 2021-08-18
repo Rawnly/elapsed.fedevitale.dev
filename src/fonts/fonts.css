@@ -1,0 +1,5 @@
+@font-face {
+	font-family: Colus;
+	src: url('./Colus-Regular.woff') format('woff'),
+		url('./Colus-Regular.woff2') format('woff2');
+}
