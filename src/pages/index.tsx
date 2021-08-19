@@ -136,7 +136,7 @@ const Page: NextPage<PageProps> = _ => {
 								]}
 							/>
 
-							<CheckBox label='Verbose' name='verbose' checked={isVerbose} onChange={() => setIsVerbose( x => !x )}>
+							<CheckBox color='blueGray' label='Seconds' name='seconds' checked={isVerbose} onChange={() => setIsVerbose( x => !x )}>
 								Add seconds to the conversion.
 							</CheckBox>
 
