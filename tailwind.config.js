@@ -16,10 +16,15 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundColor: ['active'],
+      backgroundColor: ['active', 'disabled'],
       transform: ['active'],
       translate: ['active'],
       scale: ['active'],
+      opacity: ['active', 'disabled'],
+      cursor: ['disabled'],
+      transform: ['disabled'],
+      translateY: ['disabled'],
+      translateX: ['disabled'],
     },
   },
   plugins: [

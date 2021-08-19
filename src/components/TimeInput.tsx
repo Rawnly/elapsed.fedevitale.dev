@@ -34,11 +34,12 @@ const TimeInput: FC<ITimeInputProps> = ( { label, onChange, name, select } ) => 
 					</span>
 				</div>
 				<input
-					type="text"
+					type="number"
+					min="0"
 					name={name}
 					id={name}
-					className="focus:ring-blueGray-500 focus:border-blueGray-500 pl-7 sm:text-sm block w-full pr-12 border-gray-300 rounded-md"
-					placeholder="0.00"
+					className="focus:ring-blueGray-500appearance-none focus:border-blueGray-500 pl-7 sm:text-sm block w-full pr-12 m-0 border-gray-300 rounded-md"
+					placeholder="3600"
 					value={text}
 					onChange={( e ) => setText( e.target.value )}
 				/>

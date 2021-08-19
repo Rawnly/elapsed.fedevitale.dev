@@ -142,7 +142,7 @@ const Page: NextPage<PageProps> = _ => {
 
 						</fieldset>
 
-						<Button color='blueGray' className='hover:bg-blueGray-600 bg-blueGray-500 mt-4' onClick={onSubmit}>
+						<Button disabled={!time.text} color='blueGray' className='hover:bg-blueGray-600 bg-blueGray-500 mt-4' onClick={onSubmit}>
 							Calculate
 						</Button>
 					</>
